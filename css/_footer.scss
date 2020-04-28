@@ -1,0 +1,121 @@
+.footer-main {
+  margin-top: 7em;
+  background-image: url("../img/footer-1.png");
+  height: 150vh;
+  width: 100%;
+  position: relative;
+  background-repeat: no-repeat;
+  .adventure-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    .title {
+      @include title;
+      line-height: 53px;
+    }
+    button {
+      border: none;
+      border-radius: 5px;
+      padding: 12px 40px;
+      color: #ffffff;
+      background-color: $colorBlue;
+      margin: 1em 0;
+    }
+  }
+  .container{
+    img{
+      position: absolute;
+      left: 40%;
+      bottom: 20%;
+    }
+    .footer-section {
+      margin-top: 52%;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 1em 4em;
+      padding-bottom: 45px;
+      padding-top: 45px;
+      font-family: "AirbnbCerealBook";
+      justify-content: center;
+      color: #ffffff;
+      .address {
+        .footer-logo {
+          width: auto;
+          height: auto;
+        }
+        p {
+          font-size: 16px;
+          width: 80%;
+          line-height: 24px;
+        }
+      }
+      .quick-links {
+        h2 {
+          font-size: 20px;
+          font-weight: 600;
+          margin: 15px auto;
+          text-transform: uppercase ;
+        }
+        ul {
+          list-style-type: none;
+          padding: 0;
+          margin: 0;
+          li {
+            a {
+              text-transform: capitalize;
+              text-decoration: none;
+              font-size: 16px;
+              line-height: 24px;
+              
+              color: #ffffff;
+              &:hover {
+                text-decoration: underline;
+              }
+            }
+          }
+        }
+      }
+      .more-links {
+        h2 {
+          font-size: 20px;
+        }
+        ul {
+          list-style-type: none;
+          padding: 0;
+          margin: 0;
+          display: flex;
+          justify-content: space-between;
+          li {
+            font-size: 15px;
+            line-height: 41px;
+            padding-right: 0 1em;
+          }
+        }
+      }
+    }
+  
+  }
+  .footer-image{
+    background-color: #004E7A;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+         .copyright {
+        padding-top: 20px;
+        padding-bottom: 20px;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        .container {
+          display: flex;
+          color: white;
+          font-weight: 600;
+          .copyright-1 {
+            font-size: 15px;
+    
+          }
+        }
+      }
+  }
+}

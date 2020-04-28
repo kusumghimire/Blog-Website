@@ -1,0 +1,49 @@
+@font-face {
+    font-family: "AirbnbCerealBold";
+    src: url("../fonts/AirbnbCerealBold.woff");
+}
+
+@font-face {
+    font-family: "AirbnbCerealMedium";
+    src: url("../fonts/AirbnbCerealMedium.woff");
+}
+
+@font-face {
+  font-family: "AirbnbCerealBook";
+  src: url("../fonts/AirbnbCerealBook.ttf");
+}
+
+@font-face {
+    font-family: "CircularStd-Book";
+    src: url("../fonts/CircularStd-Book.woff");
+}
+
+@import "variable";
+@import "partials";
+@import "header";
+@import "banner";
+@import "blog";
+@import "search";
+@import "footer";
+
+
+@media (max-width: 992px) {
+    @import "992_lg/blog"; 
+    @import "992_lg/footer";   
+   
+}
+
+
+@media (max-width: 768px) {
+@import "768_md/banner";
+@import "768_md/blog";
+@import "768_md/search";
+@import "768_md/footer";
+
+}
+
+@media (max-width: 576px) {
+    @import "576_xs/blog";
+    @import "576_xs/footer";
+    
+    }

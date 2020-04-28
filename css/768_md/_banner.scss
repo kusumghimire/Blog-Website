@@ -1,0 +1,47 @@
+.banner-section {
+    grid-gap: 1.8em;
+    .image-section {
+      grid-column: 1/-1;
+      .img-contents{
+        .img-title {
+          font-size: 13px;
+          margin-right: 25px;
+        }
+      }
+      .div-title{
+        font-size: 25px;
+      }
+      p{
+        font-size: 16px;
+        line-height: 28px;
+      } 
+    }
+    .latest-blog {
+      grid-row-gap: 1.8em;
+      grid-column: 1/-1;
+      .latest-grid {
+        display: grid;
+        grid-template-rows: auto;
+        .latest-img {
+            img {
+              object-fit: cover;
+              border-radius: 5px;
+            }
+          }
+        .latest-contents {
+          .blog,
+          .date {
+            font-size: 13px;
+            margin-right: 25px;
+          }
+          p {
+            font-size: 18px;
+          }
+          a {
+            font-size: 15px;
+          }
+        }
+      }
+    }
+  }
+  

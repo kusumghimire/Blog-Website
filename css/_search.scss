@@ -1,0 +1,53 @@
+.search-main {
+  padding: 7em 0;
+  @include box-shadow;
+  .search-section {
+    .title-search {
+      @include title;
+      text-transform: capitalize;
+      .big {
+        color: $colorBlue;
+        text-transform: uppercase;
+      }
+    }
+    form {
+      input.form-control.mr-sm-2 {
+        width: 85%;
+        border-top: 0;
+        border-left: 0;
+        border-right: 0;
+      }
+      button.btn.btn-outline-success.my-2.my-sm-0 {
+        border: 1px solid $colorBlue;
+        color: $colorBlue;
+        &:hover {
+          background-color: $colorBlue;
+          color: #ffffff;
+        }
+      }
+    }
+    .navbar-nav{
+      font-family: "CircularStd-Book";
+      flex-direction: row;
+      color: $colorBlue;
+      font-size:17px ;
+      line-height: 27px;
+      opacity: 0.87;
+      .nav-link{
+        padding-right: 2em;
+      }
+      .nav-link.suggest{
+        color: $colorGray;
+            .fas{
+              padding: 0 10px;
+            }
+            .fa-chevron-down{
+              display: none;
+            }
+
+
+      }
+
+    }
+  }
+}

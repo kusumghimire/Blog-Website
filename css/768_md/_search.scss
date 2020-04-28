@@ -1,0 +1,15 @@
+.search-main .search-section .navbar-nav{
+    flex-direction: column;
+}
+.search-main .search-section form input.form-control.mr-sm-2{
+    margin: 1em 0;
+}
+
+
+.search-main .search-section .navbar-nav .nav-link.suggest .fa-chevron-down{
+    display: inline;
+}
+
+.search-main .search-section .navbar-nav .nav-link.suggest .fa-chevron-right{
+    display: none;
+}

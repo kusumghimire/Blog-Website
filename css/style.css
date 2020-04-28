@@ -1,0 +1,553 @@
+@font-face {
+  font-family: "AirbnbCerealBold";
+  src: url("../fonts/AirbnbCerealBold.woff");
+}
+
+@font-face {
+  font-family: "AirbnbCerealMedium";
+  src: url("../fonts/AirbnbCerealMedium.woff");
+}
+
+@font-face {
+  font-family: "AirbnbCerealBook";
+  src: url("../fonts/AirbnbCerealBook.ttf");
+}
+
+@font-face {
+  font-family: "CircularStd-Book";
+  src: url("../fonts/CircularStd-Book.woff");
+}
+
+#navbarDropdown::after {
+  font-weight: 400;
+  margin-left: .255em;
+  vertical-align: .255em;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 0;
+  border-left: 0;
+  content: "\f078";
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  color: #000000;
+}
+
+header {
+  -webkit-box-shadow: 0px 3px 6px #cccccc;
+          box-shadow: 0px 3px 6px #cccccc;
+}
+
+.title {
+  font-size: 40px;
+  line-height: 64px;
+  color: #3D3D3D;
+}
+
+.banner-section {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto;
+      grid-template-rows: auto;
+  grid-gap: 2em;
+  margin-bottom: 4em;
+}
+
+.banner-section .image-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.banner-section .image-section .banner-img {
+  width: auto;
+  height: auto;
+}
+
+.banner-section .image-section .banner-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.banner-section .image-section .img-contents .img-title {
+  font-family: "AirbnbCerealMedium";
+  color: #F7931E;
+  line-height: 48px;
+  font-size: 14px;
+  margin-right: 25px;
+}
+
+.banner-section .image-section .div-title {
+  font-size: 28px;
+  line-height: 40px;
+  font-family: "AirbnbCerealBold";
+}
+
+.banner-section .image-section p {
+  font-size: 18px;
+  line-height: 28px;
+  color: #AAAAAA;
+  font-family: "CircularStd-Book";
+}
+
+.banner-section .latest-blog {
+  display: -ms-grid;
+  display: grid;
+  grid-row-gap: 2em;
+}
+
+.banner-section .latest-blog .latest-grid {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 2em 1em;
+  -ms-grid-columns: 1fr 3fr;
+      grid-template-columns: 1fr 3fr;
+  -ms-grid-rows: 130px;
+      grid-template-rows: 130px;
+}
+
+.banner-section .latest-blog .latest-grid .latest-img {
+  width: 100%;
+  height: 100%;
+}
+
+.banner-section .latest-blog .latest-grid .latest-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.banner-section .latest-blog .latest-grid .latest-contents {
+  font-family: "AirbnbCerealMedium";
+}
+
+.banner-section .latest-blog .latest-grid .latest-contents .blog,
+.banner-section .latest-blog .latest-grid .latest-contents .date {
+  color: #F7931E;
+  line-height: 32px;
+  font-size: 14px;
+  margin-right: 25px;
+}
+
+.banner-section .latest-blog .latest-grid .latest-contents .date {
+  line-height: 48px;
+  color: #AAAAAA;
+}
+
+.banner-section .latest-blog .latest-grid .latest-contents p {
+  font-family: "AirbnbCerealBold";
+  font-size: 20px;
+  line-height: 22px;
+  color: #3D3D3D;
+}
+
+.banner-section .latest-blog .latest-grid .latest-contents a {
+  font-size: 17px;
+  line-height: 30px;
+}
+
+.blog-section {
+  padding: 2em 0 4em 0;
+  background-color: #f8f8f8;
+}
+
+.blog-section .title {
+  font-size: 40px;
+  line-height: 64px;
+  color: #3D3D3D;
+}
+
+.blog-section .blog-contents {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  grid-gap: 3em 2em;
+}
+
+.blog-section .blog-contents .blog-grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  -ms-grid-rows: 300px;
+      grid-template-rows: 300px;
+}
+
+.blog-section .blog-contents .blog-grid .blog-img {
+  grid-column: 1/-1;
+  width: auto;
+  height: auto;
+}
+
+.blog-section .blog-contents .blog-grid .blog-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.blog-section .blog-contents .blog-grid .blog-contents {
+  font-family: "AirbnbCerealMedium";
+  grid-column: 1/-1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.blog-section .blog-contents .blog-grid .blog-contents .blog,
+.blog-section .blog-contents .blog-grid .blog-contents .date {
+  color: #F7931E;
+  line-height: 32px;
+  font-size: 14px;
+  margin-right: 25px;
+}
+
+.blog-section .blog-contents .blog-grid .blog-contents .date {
+  line-height: 48px;
+  color: #AAAAAA;
+}
+
+.blog-section .blog-contents .blog-grid .blog-contents p {
+  font-family: "AirbnbCerealBold";
+  font-size: 20px;
+  line-height: 22px;
+  color: #3D3D3D;
+}
+
+.blog-section .blog-contents .blog-grid .blog-contents a {
+  font-size: 17px;
+  line-height: 30px;
+}
+
+.search-main {
+  padding: 7em 0;
+  box-shadow: 2px -1px 9px 1px rgba(87, 87, 87, 0.2);
+  -webkit-box-shadow: 2px -1px 9px 1px rgba(87, 87, 87, 0.2);
+  -moz-box-shadow: 2px -1px 9px 1px rgba(87, 87, 87, 0.2);
+}
+
+.search-main .search-section .title-search {
+  font-size: 40px;
+  line-height: 64px;
+  color: #3D3D3D;
+  text-transform: capitalize;
+}
+
+.search-main .search-section .title-search .big {
+  color: #0984E3;
+  text-transform: uppercase;
+}
+
+.search-main .search-section form input.form-control.mr-sm-2 {
+  width: 85%;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+}
+
+.search-main .search-section form button.btn.btn-outline-success.my-2.my-sm-0 {
+  border: 1px solid #0984E3;
+  color: #0984E3;
+}
+
+.search-main .search-section form button.btn.btn-outline-success.my-2.my-sm-0:hover {
+  background-color: #0984E3;
+  color: #ffffff;
+}
+
+.search-main .search-section .navbar-nav {
+  font-family: "CircularStd-Book";
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  color: #0984E3;
+  font-size: 17px;
+  line-height: 27px;
+  opacity: 0.87;
+}
+
+.search-main .search-section .navbar-nav .nav-link {
+  padding-right: 2em;
+}
+
+.search-main .search-section .navbar-nav .nav-link.suggest {
+  color: #AAAAAA;
+}
+
+.search-main .search-section .navbar-nav .nav-link.suggest .fas {
+  padding: 0 10px;
+}
+
+.search-main .search-section .navbar-nav .nav-link.suggest .fa-chevron-down {
+  display: none;
+}
+
+.footer-main {
+  margin-top: 7em;
+  background-image: url("../img/footer-1.png");
+  height: 150vh;
+  width: 100%;
+  position: relative;
+  background-repeat: no-repeat;
+}
+
+.footer-main .adventure-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer-main .adventure-title .title {
+  font-size: 40px;
+  line-height: 64px;
+  color: #3D3D3D;
+  line-height: 53px;
+}
+
+.footer-main .adventure-title button {
+  border: none;
+  border-radius: 5px;
+  padding: 12px 40px;
+  color: #ffffff;
+  background-color: #0984E3;
+  margin: 1em 0;
+}
+
+.footer-main .container img {
+  position: absolute;
+  left: 40%;
+  bottom: 20%;
+}
+
+.footer-main .container .footer-section {
+  margin-top: 52%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1em 4em;
+  padding-bottom: 45px;
+  padding-top: 45px;
+  font-family: "AirbnbCerealBook";
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #ffffff;
+}
+
+.footer-main .container .footer-section .address .footer-logo {
+  width: auto;
+  height: auto;
+}
+
+.footer-main .container .footer-section .address p {
+  font-size: 16px;
+  width: 80%;
+  line-height: 24px;
+}
+
+.footer-main .container .footer-section .quick-links h2 {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 15px auto;
+  text-transform: uppercase;
+}
+
+.footer-main .container .footer-section .quick-links ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-main .container .footer-section .quick-links ul li a {
+  text-transform: capitalize;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.footer-main .container .footer-section .quick-links ul li a:hover {
+  text-decoration: underline;
+}
+
+.footer-main .container .footer-section .more-links h2 {
+  font-size: 20px;
+}
+
+.footer-main .container .footer-section .more-links ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer-main .container .footer-section .more-links ul li {
+  font-size: 15px;
+  line-height: 41px;
+  padding-right: 0 1em;
+}
+
+.footer-main .footer-image {
+  background-color: #004E7A;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.footer-main .footer-image .copyright {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.footer-main .footer-image .copyright .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  font-weight: 600;
+}
+
+.footer-main .footer-image .copyright .container .copyright-1 {
+  font-size: 15px;
+}
+
+@media (max-width: 992px) {
+  .blog-section .blog-contents .blog-grid {
+    -ms-grid-rows: 250px;
+        grid-template-rows: 250px;
+  }
+  .blog-section .blog-contents .blog-grid .blog-img img {
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .footer-main .container img {
+    bottom: 41%;
+  }
+  .footer-main .container .footer-section {
+    margin-top: 56%;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .banner-section {
+    grid-gap: 1.8em;
+  }
+  .banner-section .image-section {
+    grid-column: 1/-1;
+  }
+  .banner-section .image-section .img-contents .img-title {
+    font-size: 13px;
+    margin-right: 25px;
+  }
+  .banner-section .image-section .div-title {
+    font-size: 25px;
+  }
+  .banner-section .image-section p {
+    font-size: 16px;
+    line-height: 28px;
+  }
+  .banner-section .latest-blog {
+    grid-row-gap: 1.8em;
+    grid-column: 1/-1;
+  }
+  .banner-section .latest-blog .latest-grid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-rows: auto;
+        grid-template-rows: auto;
+  }
+  .banner-section .latest-blog .latest-grid .latest-img img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: 5px;
+  }
+  .banner-section .latest-blog .latest-grid .latest-contents .blog,
+  .banner-section .latest-blog .latest-grid .latest-contents .date {
+    font-size: 13px;
+    margin-right: 25px;
+  }
+  .banner-section .latest-blog .latest-grid .latest-contents p {
+    font-size: 18px;
+  }
+  .banner-section .latest-blog .latest-grid .latest-contents a {
+    font-size: 15px;
+  }
+  .blog-section .blog-contents {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+  .search-main .search-section .navbar-nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .search-main .search-section form input.form-control.mr-sm-2 {
+    margin: 1em 0;
+  }
+  .search-main .search-section .navbar-nav .nav-link.suggest .fa-chevron-down {
+    display: inline;
+  }
+  .search-main .search-section .navbar-nav .nav-link.suggest .fa-chevron-right {
+    display: none;
+  }
+  .footer-main .container img {
+    bottom: 41%;
+    left: 35%;
+  }
+  .footer-main .container .footer-section {
+    margin-top: 85%;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 576px) {
+  .blog-section .blog-contents {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+  }
+  .footer-main .container img {
+    bottom: 59%;
+    left: 28%;
+  }
+  .footer-main .container .footer-section {
+    padding: 0 1em;
+    margin-top: 50%;
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+  }
+}
+/*# sourceMappingURL=style.css.map */

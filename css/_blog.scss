@@ -1,0 +1,32 @@
+.blog-section {
+    padding: 2em 0 4em 0;
+    background-color: $colorLightGray;
+    .title {
+        @include title;
+    }
+    .blog-contents {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 3em 2em;
+        .blog-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 300px;
+            .blog-img {
+                grid-column: 1/-1;
+                width: auto;
+                height: auto;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .blog-contents {
+                @include contents;
+                grid-column: 1/-1; 
+                display: flex;
+                flex-direction: column;
+            }
+        }
+    }
+}

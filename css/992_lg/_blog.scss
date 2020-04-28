@@ -1,0 +1,12 @@
+.blog-section {
+    .blog-contents {
+        .blog-grid {
+            grid-template-rows: 250px;
+            .blog-img {
+                img {
+                    object-fit: cover;
+                }
+            }
+        }
+    }
+}
